@@ -4,7 +4,7 @@ Portfólio pessoal desenvolvido como atividade prática web do curso de Engenhar
 
 ## 🔗 Demo
 
-🌐 **Site publicado:** _[https://gabrielbotelho-dev.github.io/TrabalhoUninterPortifolio/#portfolio]_
+🌐 **Site publicado:** _[https://gabrielbotelho-dev.github.io/TrabalhoUninterPortifolio/]_
 
 ## 📋 Sobre o projeto
 
