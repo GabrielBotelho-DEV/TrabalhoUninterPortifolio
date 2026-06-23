@@ -13,13 +13,16 @@
     <header>
         <div class="container header-content">
             <span class="logo">Gabriel Botelho</span>
-            <button class="menu-btn" id="menu-btn">☰</button>
+            <div class="header-actions">
+                <button class="theme-btn" id="theme-btn" aria-label="Alternar modo escuro">🌙</button>
+                <button class="menu-btn" id="menu-btn">☰</button>
+            </div>
             <nav id="nav-menu">
                 <ul>
-                    <li><a href="#sobre-mim">Sobre Mim</a></li>
-                    <li><a href="#formacao">Formação</a></li>
-                    <li><a href="#portfolio">Portfólio</a></li>
-                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#sobre-mim" data-section="sobre-mim">Sobre Mim</a></li>
+                    <li><a href="#formacao" data-section="formacao">Formação</a></li>
+                    <li><a href="#portfolio" data-section="portfolio">Portfólio</a></li>
+                    <li><a href="#contato" data-section="contato">Contato</a></li>
                 </ul>
             </nav>
         </div>
@@ -85,9 +88,6 @@
                     <div class="skill-item">
                         <div class="skill-info"><span>Java</span><span>Aprendendo</span></div>
                         <div class="barra"><div class="barra-fill" style="width: 55%;"></div></div>
-                    </div>
-                    <div class="skill-item">
-
                     </div>
                     <div class="skill-item">
                         <div class="skill-info"><span>HTML/CSS</span><span>Aprendendo</span></div>

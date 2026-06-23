@@ -398,6 +398,64 @@ footer {
     font-size: 0.85rem;
 }
 
+/*  THEME TOGGLE  */
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.theme-btn {
+    background: none;
+    border: 1px solid var(--borda);
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 6px 10px;
+    border-radius: 8px;
+    line-height: 1;
+    color: var(--texto);
+    transition: background 0.2s;
+}
+
+.theme-btn:hover {
+    background: var(--fundo-claro);
+}
+
+/*  DARK MODE  */
+[data-theme="dark"] {
+    --azul: #60a5fa;
+    --texto: #f3f4f6;
+    --texto-claro: #9ca3af;
+    --fundo: #0f172a;
+    --fundo-claro: #1e293b;
+    --borda: #334155;
+}
+
+[data-theme="dark"] .badge {
+    background: var(--fundo-claro);
+}
+
+[data-theme="dark"] .skills-tags span {
+    background: var(--fundo-claro);
+}
+
+[data-theme="dark"] .card {
+    background: var(--fundo-claro);
+}
+
+[data-theme="dark"] .btn-secundario {
+    color: var(--texto-claro);
+}
+
+[data-theme="dark"] .sobre {
+    background: var(--fundo-claro);
+}
+
+/*  SECTION HIDE  */
+.section-hidden {
+    display: none;
+}
+
 /*  RESPONSIVO  */
 @media (max-width: 768px) {
     nav {
