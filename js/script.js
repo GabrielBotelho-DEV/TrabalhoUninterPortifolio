@@ -1,11 +1,7 @@
-// ============================================
-//   GABRIEL BOTELHO — PORTFÓLIO
-//   Versão simplificada
-// ============================================
 
 document.addEventListener("DOMContentLoaded", function () {
 
-  // --- MENU MOBILE ---
+  // MENU MOBILE
   const menuBtn = document.getElementById("menu-btn");
   const navMenu = document.getElementById("nav-menu");
 
@@ -20,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
-  // --- FORMULÁRIO DE CONTATO ---
+  // FORMULÁRIO DE CONTATO
   const form = document.getElementById("form-contato");
 
   form.addEventListener("submit", function (event) {
